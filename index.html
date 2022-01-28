@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+    <link rel="stylesheet" href="./src/css/global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-100 via-blue-200 to-blue-300">
+    <div class="text-center m-auto mt-[5rem] bg-blue-400 w-96 h-[28rem] rounded-xl">
+        <h1 class="text-2xl font-bold text-white pt-[1rem] drop-shadow-sm">Calculadora de IMC</h1>
+        <div class="box">
+            <input class="my-2 p-3 font-bold rounded-md" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            <input class="my-2 p-3 font-bold rounded-md" type="number" name="altura" id="altura" placeholder="Digite sua altura">
+            <input class="my-2 p-3 font-bold rounded-md" type="number" name="peso" id="peso" placeholder="Digite seu peso">
+            <button class="p-2 my-2 bg-blue-600 rounded-md text-xl font-bold text-white hover:bg-blue-700 transition ease-in-out" id="calcular">Calcular</button>
+            <div class="bg-white px-5 h-[6.6rem] rounded-md">
+                <p class="py-7 font-bold text-zinc-700 text-xl" id="resultado"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+input{
+    text-align: center;
+}
+
+input[type=text]{
+    color: #666;
+    font-size: 1.1rem;
+}
+
+input[type=number]{
+    color: #666;
+    font-size: 1.1rem;
+}
